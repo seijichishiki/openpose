@@ -19,7 +19,7 @@ namespace op
                 // Parameters
                 const auto thicknessCircleRatio = 1.f/75.f;
                 //const auto thicknessLineRatioWRTCircle = 0.75f;
-                const auto thicknessLineRatioWRTCircle = 0.98f;
+                const auto thicknessLineRatioWRTCircle = 0.25f;
                 const auto& pairs = getPoseBodyPartPairsRender(poseModel);
                 const auto& poseScales = getPoseScales(poseModel);
 
