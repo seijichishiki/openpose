@@ -242,7 +242,8 @@ namespace op
                                     positiveIntRound(keypoints[index1]), positiveIntRound(keypoints[index1+1])};
                                 const cv::Point keypoint2{
                                     positiveIntRound(keypoints[index2]), positiveIntRound(keypoints[index2+1])};
-                                cv::line(frameBGR, keypoint1, keypoint2, color, thicknessLineScaled, lineType, shift);
+                                //cv::line(frameBGR, keypoint1, keypoint2, color, thicknessLineScaled, lineType, shift);
+                                cv::line(frameBGR, keypoint1, keypoint2, cv::Scalar(0,0,200), 3, lineType, shift);
                             }
                         }
 
